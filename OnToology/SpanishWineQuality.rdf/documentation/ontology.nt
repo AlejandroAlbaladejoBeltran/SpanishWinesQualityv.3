@@ -1,0 +1,749 @@
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/SpanishWineQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/SpanishWineQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "@Author:\nAlejandro Albaladejo Beltran" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about the price and rating of the wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation> <http://www.w3.org/2000/01/rdf-schema#label> "HasWineInformation" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> <http://www.w3.org/2000/01/rdf-schema#comment> "In a region there are wineries" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> <http://www.w3.org/2000/01/rdf-schema#label> "HasWineries" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The wine is aged in a winery" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.w3.org/2000/01/rdf-schema#label> "GetsOld" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Region where the winery is located" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.w3.org/2000/01/rdf-schema#label> "IsLocatedAt" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The variety of wine that the wine uses" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.w3.org/2000/01/rdf-schema#label> "IsElaboratedBy" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Winery produces wines" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt> <http://www.w3.org/2000/01/rdf-schema#label> "ProducesAt" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo> <http://www.w3.org/2000/01/rdf-schema#comment> "Relevant information about the price and rating score of the wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo> <http://www.w3.org/2000/01/rdf-schema#label> "WineInformationTo" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape> <http://www.w3.org/2000/01/rdf-schema#comment> "The variety of wine used to make the wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape> <http://www.w3.org/2000/01/rdf-schema#label> "hasGrape" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/2001/XMLSchema#maxInclusive> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/2001/XMLSchema#minInclusive> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> <http://www.w3.org/2000/01/rdf-schema#comment> "Has the following acidity rating" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> <http://www.w3.org/2000/01/rdf-schema#label> "Acidity" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> <http://www.w3.org/2000/01/rdf-schema#range> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#withRestrictions> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/2001/XMLSchema#maxInclusive> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid10 .
+_:genid10 <http://www.w3.org/2001/XMLSchema#minInclusive> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/2002/07/owl#onDatatype> <http://www.w3.org/2001/XMLSchema#integer> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> <http://www.w3.org/2000/01/rdf-schema#comment> "has the following body rating" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> <http://www.w3.org/2000/01/rdf-schema#label> "Body" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Has number of reviews" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> <http://www.w3.org/2000/01/rdf-schema#label> "NumReview" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> <http://www.w3.org/2000/01/rdf-schema#comment> "The wine has the following price in euros" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> <http://www.w3.org/2000/01/rdf-schema#label> "Price" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Has Rating of" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> <http://www.w3.org/2000/01/rdf-schema#comment> "Year in which the grape was harvested" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> <http://www.w3.org/2000/01/rdf-schema#label> "Year" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/page/Year" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster> <http://www.w3.org/2000/01/rdf-schema#label> "Alabaster" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo> <http://www.w3.org/2000/01/rdf-schema#label> "Cartago_Paraje_de_Pozo" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito> <http://www.w3.org/2000/01/rdf-schema#label> "El_Titan_del_Bendito" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo> <http://www.w3.org/2000/01/rdf-schema#label> "El_Viejo" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine price over 100 Euros" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice> <http://www.w3.org/2000/01/rdf-schema#label> "HighPrice" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Rating score higher than 4.3" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating> <http://www.w3.org/2000/01/rdf-schema#label> "HighRating" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud> <http://www.w3.org/2000/01/rdf-schema#label> "La_Mula_de_la_Quietud" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine price below 50 euros" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice> <http://www.w3.org/2000/01/rdf-schema#label> "LowPrice" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Rating score less than or equal to 4.3" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating> <http://www.w3.org/2000/01/rdf-schema#label> "LowRating" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "MediumPrice" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine price between 50 and 100 euros" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia> <http://www.w3.org/2000/01/rdf-schema#label> "Numanthia" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+_:genid11 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Region of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://oaei.ontologymatching.org/tests/102/onto.html#Region" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia> <http://www.w3.org/2000/01/rdf-schema#label> "Termanthia" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto> <http://www.w3.org/2000/01/rdf-schema#label> "Tinto" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine Variety" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type> <http://www.w3.org/2000/01/rdf-schema#label> "Type" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro> <http://www.w3.org/2000/01/rdf-schema#label> "Vatan_Tinta_de_Toro" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo> <http://www.w3.org/2000/01/rdf-schema#label> "Verdejo" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino> <http://www.w3.org/2000/01/rdf-schema#label> "Victorino" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+_:genid12 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type> .
+_:genid13 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Red Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> <http://www.w3.org/2000/01/rdf-schema#label> "Red_Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://es.dbpedia.org/page/Vino_tinto" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> <http://www.w3.org/2000/01/rdf-schema#comment> "Information about the price and rating of the wines" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information> <http://www.w3.org/2000/01/rdf-schema#label> "Wine_Information" .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+_:genid14 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> .
+_:genid15 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> <http://www.w3.org/2000/01/rdf-schema#comment> "Winery Name" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> <http://www.w3.org/2000/01/rdf-schema#label> "Winery" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "264"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "135.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodega_Numanthia
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodega_Numanthia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodega_Numanthia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodega_Numanthia> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_Frontaura
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_Frontaura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_Frontaura> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_Frontaura> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_San_Roman
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_San_Roman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_San_Roman> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_San_Roman> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_San_Roman> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "153"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "61.69"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo_2014> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2014"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Dominio_del_Bendito
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Dominio_del_Bendito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Dominio_del_Bendito> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Dominio_del_Bendito> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Dominio_del_Bendito> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "388"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "43.5"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito_2015> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2015"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Matsu> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "400"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "27.89"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo_2019> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2019"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Quinta_de_la_Quietud> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "99"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "63.75"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.7"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud_2016> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Matsu
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Matsu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Matsu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Matsu> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodega_Numanthia> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "998"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "51.19"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.2"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia__2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2013"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Ordonez
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Ordonez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Ordonez> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Ordonez> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Pintia
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Pintia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Pintia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Pintia> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Quinta_de_la_Quietud
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Quinta_de_la_Quietud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Quinta_de_la_Quietud> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Quinta_de_la_Quietud> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_San_Roman> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "140.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia_2000> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2000"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "58"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "995.0"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2013"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Pintia> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "760"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "116.9"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_2004> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2004"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Ordonez> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "247"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "33.6"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro_2018> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2018"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Bodegas_Frontaura> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "32"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "19.97"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.4"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo_2017> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2017"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Teso_La_Monja> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro_Red> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview> "878"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> "34.22"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> "4.3"^^<http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino_2013> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year> "2013"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the Wine" .
+<http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro> <http://www.w3.org/2000/01/rdf-schema#label> "Toro" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid16 <http://www.w3.org/2003/11/swrl#body> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2003/11/swrl#arguments> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#p> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p> .
+_:genid22 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid22 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid24 .
+_:genid24 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid24 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid16 <http://www.w3.org/2003/11/swrl#head> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid26 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid27 <http://www.w3.org/2003/11/swrl#body> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2003/11/swrl#arguments> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#p> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#arguments> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#p> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#lessThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p> .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid37 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid39 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid27 <http://www.w3.org/2003/11/swrl#head> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid41 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid42 <http://www.w3.org/2003/11/swrl#body> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#arguments> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#p> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p> .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid48 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid50 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://www.w3.org/2003/11/swrl#head> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid52 .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid52 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid53 <http://www.w3.org/2003/11/swrl#body> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid55 .
+_:genid55 <http://www.w3.org/2003/11/swrl#arguments> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#r> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid59 .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
+_:genid59 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid59 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid61 .
+_:genid61 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid61 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid53 <http://www.w3.org/2003/11/swrl#head> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid63 .
+_:genid63 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid63 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid64 <http://www.w3.org/2003/11/swrl#body> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/2003/11/swrl#arguments> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4.3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#r> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThanOrEqual> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid70 .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#r> .
+_:genid70 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid70 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid72 .
+_:genid72 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid72 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid64 <http://www.w3.org/2003/11/swrl#head> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid74 .
+_:genid74 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#v> .
+_:genid74 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,23 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "untitled-ontology-11:Verdejo" "untitled-ontology-11:HighRating" "untitled-ontology-11:El_Viejo" "untitled-ontology-11:Termanthia" "untitled-ontology-11:LowRating" "untitled-ontology-11:Cartago_Paraje_de_Pozo" "untitled-ontology-11:Wine_Information" "untitled-ontology-11:Tinto" "untitled-ontology-11:Vatan_Tinta_de_Toro" "untitled-ontology-11:Wine" "untitled-ontology-11:MediumPrice" "untitled-ontology-11:La_Mula_de_la_Quietud" "untitled-ontology-11:LowPrice" "untitled-ontology-11:El_Titan_del_Bendito" "untitled-ontology-11:Victorino" "untitled-ontology-11:Alabaster" "untitled-ontology-11:HighPrice" "untitled-ontology-11:Toro" "untitled-ontology-11:Numanthia" ; /*classes style*/
+	"untitled-ontology-11:Termanthia" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:MediumPrice" -> "untitled-ontology-11:Wine_Information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:LowPrice" -> "untitled-ontology-11:Wine_Information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Cartago_Paraje_de_Pozo" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Verdejo" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:La_Mula_de_la_Quietud" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:LowRating" -> "untitled-ontology-11:Wine_Information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Tinto" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Alabaster" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Vatan_Tinta_de_Toro" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:El_Viejo" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Victorino" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:HighPrice" -> "untitled-ontology-11:Wine_Information" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Numanthia" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:Toro" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:El_Titan_del_Bendito" -> "untitled-ontology-11:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-11:HighRating" -> "untitled-ontology-11:Wine_Information" [ label = "rdfs:subClassOf" ];
+
+}
