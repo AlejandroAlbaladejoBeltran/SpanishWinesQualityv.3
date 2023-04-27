@@ -1,0 +1,140 @@
+{
+  "@context" : {
+    "HasWineries" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineries",
+      "@type" : "@id"
+    },
+    "LowPrice" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowPrice"
+    },
+    "Tinto" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Tinto"
+    },
+    "Winery" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Winery"
+    },
+    "La_Mula_de_la_Quietud" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#La_Mula_de_la_Quietud"
+    },
+    "HasWineInformation" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HasWineInformation",
+      "@type" : "@id"
+    },
+    "Type" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Type"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "LowRating" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#LowRating"
+    },
+    "MediumPrice" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#MediumPrice"
+    },
+    "El_Viejo" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Viejo"
+    },
+    "Body" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Body"
+    },
+    "Wine_Information" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine_Information"
+    },
+    "IsMadeIn" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsMadeIn",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "NumReview" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#NumReview",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Price" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Price",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Termanthia" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Termanthia"
+    },
+    "Alabaster" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Alabaster"
+    },
+    "IsAgedIn" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsAgedIn",
+      "@type" : "@id"
+    },
+    "hasGrape" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#hasGrape",
+      "@type" : "@id"
+    },
+    "Victorino" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Victorino"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Rating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "HighPrice" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighPrice"
+    },
+    "ProducesAt" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#ProducesAt",
+      "@type" : "@id"
+    },
+    "Acidity" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Acidity"
+    },
+    "Year" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Year",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Cartago_Paraje_de_Pozo" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Cartago_Paraje_de_Pozo"
+    },
+    "Verdejo" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Verdejo"
+    },
+    "Toro" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Toro"
+    },
+    "Numanthia" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Numanthia"
+    },
+    "Vatan_Tinta_de_Toro" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Vatan_Tinta_de_Toro"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "HighRating" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#HighRating"
+    },
+    "WineInformationTo" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#WineInformationTo",
+      "@type" : "@id"
+    },
+    "IsLocatedIn" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#IsLocatedIn",
+      "@type" : "@id"
+    },
+    "Region" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Region"
+    },
+    "El_Titan_del_Bendito" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#El_Titan_del_Bendito"
+    },
+    "Wine" : {
+      "@id" : "http://www.semanticweb.org/alejandroalbaladejo/ontologies/2023/3/untitled-ontology-11#Wine"
+    }
+  }
+}
